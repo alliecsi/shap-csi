@@ -19,6 +19,7 @@ from .explainers._tree import Tree as TreeExplainer
 from .explainers._gpu_tree import GPUTree as GPUTreeExplainer
 from .explainers._deep import Deep as DeepExplainer
 from .explainers._gradient import Gradient as GradientExplainer
+from .explainers._gradient2 import Gradient as GradientExplainer2
 from .explainers._linear import Linear as LinearExplainer
 from .explainers._partition import Partition as PartitionExplainer
 from .explainers._permutation import Permutation as PermutationExplainer
